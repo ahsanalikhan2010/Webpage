@@ -25,7 +25,7 @@ const Section1 = () => {
   };
 
   return (
-    <div className="relative w-full max-w-3xl mx-auto ">
+    <div className="relative w-full max-w-3xl mx-auto lg:pt-3 ">
       <div
         className="overflow-hidden bg-cover bg-center"
         style={{

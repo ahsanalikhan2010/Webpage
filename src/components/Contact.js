@@ -7,13 +7,20 @@ const Footer = () => {
       id="contact"
       className="bg-[#1e4682] text-white text-center pt-4 mt-6 pb-2"
     >
-      <div className="container mx-auto px-4 w-[80%]">
-        <div className="flex flex-col md:flex-row space-x-[10%] items-center justify-around">
+      <div className="container mx-auto px-4 lg:w-[80%]">
+        <div className="flex flex-col md:flex-row space-x-[10%] items-center justify-around space-y-5">
           <div className="mb-2 md:mb-0">
             <h3 className="text-lg font-semibold">Contact Us</h3>
-            <p>Phone: 051 3597119</p>
-            <p>Email: info@bahriafoundationcollege.edu.pk</p>
-            <p>Address: Daultala, Punjab, Pakistan</p>
+            <p>
+              <b>Phone:</b> 051 3597119
+            </p>
+            <p>
+              <b>Email: </b>info@bahriafoundationcollege.edu.pk
+            </p>
+            <p>
+              <b>Address: </b>Near Nadra Office Main Road Daultala, Punjab,
+              Pakistan
+            </p>
           </div>
 
           <div className="mb-2 md:mb-0">

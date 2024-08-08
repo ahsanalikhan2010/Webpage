@@ -2,18 +2,18 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="mt-20 container mx-auro w-[80%]">
+    <div className="lg:mt-20 mt-10 container mx-auro lg:w-[80%]">
       <section id="about-us" className="bg-white p-6 rounded-lg shadow-md">
-        <h2 className="text-center text-3xl font-bold text-[#1e4682] mb-6">
+        <h2 className="text-center lg:text-3xl text-xl font-bold text-[#1e4682] mb-6">
           About Us
         </h2>
-        <p className="mb-4">
+        <p className="mb-4 ">
           Welcome to Bahria Foundation College, Daultala Campus. Our institution
           is dedicated to providing quality education and fostering a learning
           environment that encourages academic excellence and personal growth.
         </p>
 
-        <h3 className="text-2xl font-semibold text-[#1e4682] mt-4 mb-2">
+        <h3 className="lg:text-2xl  text-xl font-semibold text-[#1e4682] mt-4 mb-2">
           History
         </h3>
         <p className="mb-4">
@@ -22,7 +22,7 @@ const AboutUs = () => {
           providing quality education has been unwavering since our inception.
         </p>
 
-        <h3 className="text-2xl font-semibold text-[#1e4682] mt-4 mb-2">
+        <h3 className="lg:text-2xl  text-xl  font-semibold text-[#1e4682] mt-4 mb-2">
           Mission & Vision
         </h3>
         <p className="mb-4">
@@ -32,7 +32,7 @@ const AboutUs = () => {
           the future.
         </p>
 
-        <h3 className="text-2xl font-semibold text-[#1e4682] mt-4 mb-2">
+        <h3 className="lg:text-2xl  text-xl font-semibold text-[#1e4682] mt-4 mb-2">
           Academic Programs
         </h3>
         <p className="mb-4">
@@ -42,7 +42,7 @@ const AboutUs = () => {
           inclusive.
         </p>
 
-        <h3 className="text-2xl font-semibold text-[#1e4682] mt-4 mb-2">
+        <h3 className="lg:text-2xl  text-xl font-semibold text-[#1e4682] mt-4 mb-2">
           Campus Facilities
         </h3>
         <p className="mb-4">

@@ -8,9 +8,9 @@ const Navbar = () => {
   return (
     <div id="home" className="container">
       <nav className="fixed top-0 left-0 w-full z-10 h-18 bg-[#ebf3ff] shadow-md text-black font-normal uppercase">
-        <div className="container mx-auto px-[8%] py-[1%] space-x-[25%] flex justify-start items-center">
-          <div className="flex items-center pl-10 pt-2">
-            <img src={Logo} alt="Logo" className="h-12 rounded-full" />
+        <div className="container mx-auto lg:px-[8%] lg:py-[1%] md:space-x-[90%] space-x-[75%] lg:px-[2%] lg:space-x-[18%] flex justify-start items-center">
+          <div className="flex items-center lg:pl-[12%] pl-2 pt-2  ">
+            <img src={Logo} alt="Logo" className=" h-10 rounded-full" />
           </div>
 
           <div className="hidden lg:flex space-x-40 items-center text-[#1e4682] font-semibold">
