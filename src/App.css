@@ -1,0 +1,35 @@
+/* custom.css */
+.hover-custom {
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.hover-custom::after {
+    content: '';
+    position: absolute;
+cursor: pointer;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #c33bfe;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.hover-custom:hover {
+    color: #1c7eff;
+    transform: translateY(-2px);
+    cursor: pointer;
+   
+}
+
+.hover-custom:hover::after {
+    visibility: visible;
+    transform: scaleX(1);
+    cursor: pointer;
+}
+html {
+    scroll-behavior: smooth;
+}
